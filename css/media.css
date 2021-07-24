@@ -32,6 +32,16 @@
     div.containe-bg .hero{
         margin: 0% auto;
     }
+    #Work .inner-Work ul {
+        width: 100%;
+        flex-wrap: wrap;
+        flex: 50%; 
+        margin: 10px 0;
+    }
+    #Work .inner-Work ul  li{
+       
+        margin-bottom: 10px;
+    }
 
 }
 
