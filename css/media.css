@@ -1,0 +1,103 @@
+@media  (max-width:1500px) {
+    .outer,.containe{
+        max-width: 70%;
+        margin: 0% auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 120px;
+    }
+    .containe-bg{
+        max-width: 70%;
+        margin: 0% auto;
+    }
+}
+
+
+@media  (max-width:1200px) {
+    .outer,.containe{
+        max-width: 75%;
+        margin: 0% auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 120px;
+    }
+    .containe-bg{
+        max-width: 75%;
+        margin: 0% auto;
+    }
+    div.containe-bg .hero{
+        margin: 0% auto;
+    }
+
+}
+
+
+@media  (max-width:1000px) {
+    .outer,.containe{
+        max-width: 85%;
+        margin: 0% auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 120px;
+    }
+    .containe-bg{
+        max-width: 85%;
+        margin: 0% auto;
+    }
+    .hero img{
+        /* border-radius: 50%; */
+        width: 70%;padding: 4px;
+        background-color: blanchedalmond;
+        margin: 12px auto;
+    }
+    .hero img{
+        border-radius: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero .col-lg-8{
+        text-align: center;
+        padding-left: 0%;
+    }
+}
+
+
+@media  (max-width:800px) {
+    .outer,.containe{
+        max-width: 95%;
+        margin: 0% auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 120px;
+    }
+    .containe-bg{
+        max-width: 95%;
+        margin: 0% auto;
+    }
+}
+
+
+@media  (max-width:600px) {
+    .outer,.containe{
+        max-width: 98%;
+        margin: 0% auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 120px;
+    }
+    .containe-bg{
+        max-width: 98%;
+        margin: 0% auto;
+    }
+}
+

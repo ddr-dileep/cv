@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+body{
+    background-color: rgb(248, 241, 200);
+    color: black;
+}
+:root{
+    --primary-color:rgb(68, 68, 68);
+}
+html{scroll-behavior: smooth;}
+.outer,.containe{
+    max-width: 60%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 120px;
+}
+.outer h5{
+    font-size: 1.4rem;font-family: 'Zen Loop', cursive;
+    font-weight: bold;
+
+}
+.outer .socials  i{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin: 0% 5px ;
+}
+
+.containe-bg{
+    max-width: 60%;
+    margin: 0% auto;
+    background-color: rgb(214, 214, 214);
+    border-radius: 15px;
+    border: 1px solid rgb(182, 182, 182);
+    overflow-x: hidden;
+    box-shadow: 1px 1px 7px 0px rgb(136, 134, 134) ;
+    /* padding: px 0; */
+    height: auto;
+    overflow: hidden;
+}
+.hero{background-image: url(../image/bgg.jpg);
+    padding: 105px 0 30px 0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero img{
+    /* border-radius: 50%; */
+    width: 70%;padding: 4px;
+    background-color: blanchedalmond;
+    margin-bottom: -80px;
+}
+.hero .col-md-4 {
+   background-size: cover;
+}
+.hero .col-lg-8{
+    /* width: 70%; */
+    /* margin: 0% auto; */
+    padding-left: 120px;
+    color: white;
+}
+.hero .col-lg-8 h3{
+    font-size: 3.5rem;
+    color: blanchedalmond;
+    font-family: 'Zen Tokyo Zoo' !important; 
+}
+.hero .collg-8 h3+p{
+    font-size: 1.2rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: blanchedalmond;
+}
+.hero .col-lg-8 .btn a{
+    display: inline-block;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 7px 20px;
+    transition:  all 0.5s ease-in-out;
+    margin:  0 2px;
+    color: tomato;
+    border: 2px solid tomato;
+}
+.hero .col-lg-8 .btn a:hover{
+    letter-spacing: 1.2px;
+    color: white;
+    border: 2px solid white;
+    background-color:tomato;
+}
+
+.heading h4{
+    color: tomato;
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    font-family: 'Zen Tokyo Zoo' !important; 
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.heading h4::after{
+    position: absolute;
+    left: 0%;
+    bottom: -25%;
+    content: '';
+    /* margin-top: 50px; */
+    height: 1px;
+    border: 2px solid rgb(41, 41, 41);
+    width: 70%;
+}
+#About .col-lg-6{
+    padding: 72px;
+    /* width: 100%; */
+}
+#About .outer-ab{
+    display: flex;
+    justify-content: space-around;
+}
+#About .outer-ab .outer-about-left p{
+   /* font-size: ; */
+   font-weight: bold;
+}
+section#Skills ,section#Education , section#Work,section#contact{
+    width: 90%;
+    margin:  0 auto ;
+    padding: 0 0 40px 0;
+}
+.skill-box p{
+    font-weight: bold;
+    margin: 21px 0 7px 0;
+}
+
+textarea{
+    resize: none;
+}
+.outer-contact p:nth-child(1),
+.outer-contact p:nth-child(3),
+.outer-contact p:nth-child(5){
+   font-weight: bold;  
+   margin: 10px 0 1px 0 ;
+}
+.outer-contact p:nth-child(2),
+.outer-contact p:nth-child(4),
+.outer-contact p:nth-child(6){
+    padding-left:4px;
+    font-size: 14px;
+}
+.containe{
+    flex-direction: column;
+    line-height: 30px;
+}
+.containe h1{
+    margin-top: 50px;
+    font-size: 2.4rem;
+    color: rgb(43, 26, 0);
+    font-family: 'Zen Tokyo Zoo' !important; 
+}
+.containe .socials-icons i{
+    font-size: 1.4rem;
+    color: tomato;
+    margin: 10px 5px ;
+    cursor: pointer;
+}
+.copy{
+    display: flex;
+    padding: 25px 0;
+}
+section#Education .inner-education{
+    position: relative;
+    margin-top: 10px;
+}
+section#Education .inner-education::before{
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: -25px;
+    width: 2px;
+    background-color: rgb(100, 185, 60);
+    height: 100%;
+}
+section#Education .inner-education .card-box{
+    position: relative;
+    border: 1px solid rgba(177, 176, 174, 0.829);
+    border-left: 7px solid rgba(177, 176, 174, 0.829);
+    border-bottom: 7px solid rgba(177, 176, 174, 0.829);
+    margin-bottom: 30px;
+}
+section#Education .inner-education .card-box::before{
+    position: absolute;
+    content: "";
+    top: 20px;
+    left: -38px;
+    width: 15px;
+    background-color: rgb(67, 197, 34);
+    height: 15px;
+    border-radius: 50%;
+}
+section#Education .inner-education .card-box::after{
+    position: absolute;
+    content: "";
+    top: 25px;
+    left: -38px;
+    width: 40px;
+    background-color: rgb(67, 197, 34);;
+    height: 5px;
+}
+
+
+section#Work .inner-Work{
+    position: relative;
+    margin-top: 10px;
+}
+section#Work .inner-Work::before{
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: -25px;
+    width: 2px;
+    background-color: rgb(100, 185, 60);
+    height: 100%;
+}
+section#Work .inner-Work .card-box{
+    position: relative;
+    border: 1px solid rgba(177, 176, 174, 0.829);
+    border-left: 7px solid rgba(177, 176, 174, 0.829);
+    border-bottom: 7px solid rgba(177, 176, 174, 0.829);
+    margin-bottom: 30px;
+}
+section#Work .inner-Work .card-box::before{
+    position: absolute;
+    content: "";
+    top: 20px;
+    left: -38px;
+    width: 15px;
+    background-color: rgb(67, 197, 34);
+    height: 15px;
+    border-radius: 50%;
+}
+section#Work .inner-Work .card-box::after{
+    position: absolute;
+    content: "";
+    top: 25px;
+    left: -38px;
+    width: 40px;
+    background-color: rgb(67, 197, 34);;
+    height: 5px;
+}
+.inner-Work ul {
+    display: flex;
+}
+.inner-Work ul li{
+    background-color: #fff;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: tomato;
+    border: 1px solid tomato;
+    font-size: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.inner-Work ul li:hover{
+    background-color: tomato;
+    border-color: white;
+    color: white;
+    letter-spacing: 1px;
+}
+button.sub-btn{
+    background-color: rgb(231, 145, 111);
+    border-radius: 20px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 20px  !important;
+    transition: all 0.5s ease-in-out;
+}
+button.sub-btn:hover{
+    background-color: rgb(120, 202, 120);
+    letter-spacing: 1.2px;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.form-floating input,
+.form-floating textarea{
+    background-color: rgb(212, 208, 208);
+}
+
+.inner-Work .card-box,
+.inner-education .card-box{
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px 2px rgba(146, 143, 143, 0.493);
+    transition: all 0.5s ease-in-out;
+}
+.inner-Work .card-box:hover,
+.inner-education .card-box:hover{
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 1px 1px 12px 2px rgba(146, 138, 138, 0.623);
+    transform: translateY(-7px);
+}
